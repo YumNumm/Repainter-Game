@@ -53,7 +53,7 @@ class MainState extends GetXState {
     if (way == ways.left) x--;
     if (way == ways.down) y++;
     if (way == ways.up) y--;
-    if (0 > x || x > rows.value || 0 > y || y > rows.value) {
+    if (0 > x || x >= rows.value || 0 > y || y >= rows.value) {
       //Error!!!
       logger.w("error x:$x, y:$y");
       return;
