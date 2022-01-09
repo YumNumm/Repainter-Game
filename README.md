@@ -1,16 +1,10 @@
-# repainter
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Repainter-Game
+[repaint-game](https://github.com/laddge/repaint-game)(By[@laddge](https://github.com/laddge))をベースにFlutterに移植したもの  
+## TODO
+- [ ] UIの改善
+- [ ] かかった時間の計測
+- [ ] 結果の保存/表示
+- [ ] 画像でシェア機能
+- [ ] スコアつけたいね
+- [ ] 難易度(init時のめくれ具合調節)
+- [ ] 自動解の計算理解/実装
