@@ -41,6 +41,8 @@ class MainState extends GetXState {
     Get.showSnackbar(const GetSnackBar(
       title: "Finished!",
       messageText: Text("お疲れ様です!"),
+      animationDuration: Duration(milliseconds: 250),
+      duration: Duration(milliseconds: 1500),
     ));
   }
 

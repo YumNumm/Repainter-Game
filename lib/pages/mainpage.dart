@@ -25,11 +25,11 @@ class MainPage extends StatelessWidget {
               height: min(Get.height, Get.width),
               width: min(Get.height, Get.width),
               child: Container(
-                margin: const EdgeInsets.all(10),
+                margin: EdgeInsets.all((state.rows.value > 15) ? 10 : 1),
                 child: GridView.count(
                   crossAxisCount: state.rows.value,
-                  mainAxisSpacing: 1,
-                  crossAxisSpacing: 1,
+                  mainAxisSpacing: (state.rows.value > 15) ? 0.1 : 1,
+                  crossAxisSpacing: (state.rows.value > 15) ? 0.1 : 1,
                   children: List.generate(
                       state.cells.length * state.cells[0].length, (index) {
                     final x = index % state.rows.value;
